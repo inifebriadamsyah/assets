@@ -5572,14 +5572,14 @@ input[type="button"].btn-block {
 
 .badge-secondary {
     color: #fff;
-    background-color: #52495a;
+    background-color: #948f98;
 }
 
 .badge-secondary[href]:hover,
 .badge-secondary[href]:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #38323e;
+    background-color: #948f98;
 }
 
 .badge-success {
