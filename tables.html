@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Tables | Gull Admin Template</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet" />
-    <link href="../../dist-assets/css/themes/lite-purple.min.css" rel="stylesheet" />
-    <link href="../../dist-assets/css/plugins/perfect-scrollbar.min.css" rel="stylesheet" />
+    <link href="css/themes/lite-purple.min.css" rel="stylesheet" />
+    <link href="css/plugins/perfect-scrollbar.min.css" rel="stylesheet" />
 </head>
 
 <body class="text-left">
@@ -85,7 +85,7 @@
                 <i class="sidebar-close i-Close" (click)="toggelSidebar()"></i>
                 <header>
                     <div class="logo">
-                        <img src="../../dist-assets/images/logo-text.png" alt="">
+                        <img src="images/logo-text.png" alt="">
                     </div>
                 </header>
                 <!-- Submenu Dashboards -->
@@ -96,7 +96,7 @@
                     </header>
                     <ul class="childNav">
                         <li class="nav-item">
-                            <a href="dashboard1.html">
+                            <a href="dashboard.html">
                                 <i class="nav-icon i-Clock-3"></i>
                                 <span class="item-name">Version 1</span>
                             </a>
@@ -409,7 +409,7 @@
         <div class="main-content-wrap d-flex flex-column">
             <div class="main-header">
                 <div class="logo">
-                    <img src="../../dist-assets/images/logo.png" alt="">
+                    <img src="images/logo.png" alt="">
                 </div>
                 <div class="menu-toggle">
                     <div></div>
@@ -441,7 +441,8 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4 p-4">
-                                    <p class="text-primary text--cap border-bottom-primary d-inline-block">Components</p>
+                                    <p class="text-primary text--cap border-bottom-primary d-inline-block">Components
+                                    </p>
                                     <ul class="links">
                                         <li><a href="accordion.html">Accordion</a></li>
                                         <li><a href="alerts.html">Alerts</a></li>
@@ -554,7 +555,7 @@
                     <!-- User avatar dropdown -->
                     <div class="dropdown">
                         <div class="user col align-self-end">
-                            <img src="../../dist-assets/images/faces/1.jpg" id="userDropdown" alt="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="images/faces/1.jpg" id="userDropdown" alt="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
                                 <div class="dropdown-header">
                                     <i class="i-Lock-User mr-1"></i> Timothy Carlson
@@ -566,7 +567,8 @@
                         </div>
                     </div>
                 </div>
-            </div><!-- ============ Body content start ============= -->
+            </div>
+            <!-- ============ Body content start ============= -->
             <div class="main-content">
                 <div class="breadcrumb">
                     <h1>Table</h1>
@@ -581,7 +583,8 @@
                         <div class="card text-left">
                             <div class="card-body">
                                 <h4 class="card-title mb-3">Basic Table</h4>
-                                <p>Due to the widespread use of tables across third-party widgets like calendars and date pickers, we&rsquo;ve designed our tables to be opt-in. Just add the base class <code>.table</code> to any<code>table tag</code>, then extend with custom styles or our various included modifier classes.</p>
+                                <p>Due to the widespread use of tables across third-party widgets like calendars and date pickers, we&rsquo;ve designed our tables to be opt-in. Just add the base class
+                                    <code>.table</code> to any<code>table tag</code>, then extend with custom styles or our various included modifier classes.</p>
                                 <div class="table-responsive">
                                     <table class="table">
                                         <thead>
@@ -598,26 +601,35 @@
                                             <tr>
                                                 <th scope="row">1</th>
                                                 <td>Smith Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Smith@gmail.com</td>
                                                 <td><span class="badge badge-success">Active</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
                                                 <td>Jhon Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Jhon@gmail.com</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
                                                 <td>Alex</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Otto@gmail.com</td>
                                                 <td><span class="badge badge-warning">Not Active</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -630,7 +642,8 @@
                         <div class="card text-left">
                             <div class="card-body">
                                 <h4 class="card-title mb-3">Basic Dark Table</h4>
-                                <p>invert the colors&mdash;with light text on dark backgrounds&mdash;with <code>.table-dark</code>.</p>
+                                <p>invert the colors&mdash;with light text on dark backgrounds&mdash;with
+                                    <code>.table-dark</code>.</p>
                                 <div class="table-responsive">
                                     <table class="table table-dark">
                                         <thead>
@@ -647,34 +660,40 @@
                                             <tr>
                                                 <th scope="row">1</th>
                                                 <td>Smith Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Smith@gmail.com</td>
                                                 <td><span class="badge badge-success">Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
                                                 <td>Jhon Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Jhon@gmail.com</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
                                                 <td>Alex</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Otto@gmail.com</td>
                                                 <td><span class="badge badge-warning">Not Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -711,7 +730,10 @@
                                                 <td>12-10-2019</td>
                                                 <td>$30</td>
                                                 <td><span class="badge badge-success">Delivered</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
@@ -719,7 +741,10 @@
                                                 <td>23-10-2019</td>
                                                 <td>$300</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
@@ -727,7 +752,10 @@
                                                 <td>12-10-2019</td>
                                                 <td>$30</td>
                                                 <td><span class="badge badge-warning">Not Delivered</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -760,7 +788,10 @@
                                                 <td>12-10-2019</td>
                                                 <td>$30</td>
                                                 <td><span class="badge badge-success">Delivered</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
@@ -768,7 +799,10 @@
                                                 <td>23-10-2019</td>
                                                 <td>$300</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
@@ -776,7 +810,10 @@
                                                 <td>12-10-2019</td>
                                                 <td>$30</td>
                                                 <td><span class="badge badge-warning">Not Delivered</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -792,7 +829,8 @@
                         <div class="card text-left">
                             <div class="card-body">
                                 <h4 class="card-title mb-3">Striped rows</h4>
-                                <p>Use <code>.table-striped</code> to add zebra-striping to any table rowwithin the <code>&lt;tbody&gt;</code>.</p>
+                                <p>Use <code>.table-striped</code> to add zebra-striping to any table rowwithin the
+                                    <code>&lt;tbody&gt;</code>.</p>
                                 <div class="table-responsive">
                                     <table class="table table-striped">
                                         <thead>
@@ -809,26 +847,35 @@
                                             <tr>
                                                 <th scope="row">1</th>
                                                 <td>Smith Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Smith@gmail.com</td>
                                                 <td><span class="badge badge-success">Active</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
                                                 <td>Jhon Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Jhon@gmail.com</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
                                                 <td>Alex</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Otto@gmail.com</td>
                                                 <td><span class="badge badge-warning">Not Active</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -841,7 +888,8 @@
                         <div class="card text-left">
                             <div class="card-body">
                                 <h4 class="card-title mb-3"> Dark Striped Table </h4>
-                                <p>Use <code>.table-striped</code> to add zebra-striping to any table rowwithin the <code>&lt;tbody&gt;</code>.</p>
+                                <p>Use <code>.table-striped</code> to add zebra-striping to any table rowwithin the
+                                    <code>&lt;tbody&gt;</code>.</p>
                                 <div class="table-responsive">
                                     <table class="table table-striped table-dark">
                                         <thead>
@@ -861,7 +909,10 @@
                                                 <td>12-10-2019</td>
                                                 <td>$30</td>
                                                 <td><span class="badge badge-success">Delivered</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
@@ -869,7 +920,10 @@
                                                 <td>23-10-2019</td>
                                                 <td>$300</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
@@ -877,7 +931,10 @@
                                                 <td>12-10-2019</td>
                                                 <td>$30</td>
                                                 <td><span class="badge badge-warning">Not Delivered</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -914,8 +971,10 @@
                                                 <td>$30</td>
                                                 <td><span class="badge badge-success">Delivered</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -925,8 +984,10 @@
                                                 <td>$300</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -936,8 +997,10 @@
                                                 <td>$30</td>
                                                 <td><span class="badge badge-warning">Not Delivered</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -968,34 +1031,40 @@
                                             <tr>
                                                 <th scope="row">1</th>
                                                 <td>Smith Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Smith@gmail.com</td>
                                                 <td><span class="badge badge-success">Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
                                                 <td>Jhon Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Jhon@gmail.com</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
                                                 <td>Alex</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Otto@gmail.com</td>
                                                 <td><span class="badge badge-warning">Not Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -1029,26 +1098,35 @@
                                             <tr>
                                                 <th scope="row">1</th>
                                                 <td>Smith Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Smith@gmail.com</td>
                                                 <td><span class="badge badge-success">Active</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
                                                 <td>Jhon Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Jhon@gmail.com</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
                                                 <td>Alex</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Otto@gmail.com</td>
                                                 <td><span class="badge badge-warning">Not Active</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1081,7 +1159,10 @@
                                                 <td>12-10-2019</td>
                                                 <td>$30</td>
                                                 <td><span class="badge badge-success">Delivered</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
@@ -1089,7 +1170,10 @@
                                                 <td>23-10-2019</td>
                                                 <td>$300</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
@@ -1097,7 +1181,10 @@
                                                 <td>12-10-2019</td>
                                                 <td>$30</td>
                                                 <td><span class="badge badge-warning">Not Delivered</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1113,7 +1200,8 @@
                         <div class="card text-left">
                             <div class="card-body">
                                 <h4 class="card-title mb-3">Light Hoverable Table</h4>
-                                <p>Add <code>.table-hover</code> to enable a hover state on table rows within a <code>&lt;tbody&gt;</code>.</p>
+                                <p>Add <code>.table-hover</code> to enable a hover state on table rows within a
+                                    <code>&lt;tbody&gt;</code>.</p>
                                 <div class="table-responsive">
                                     <table class="table table-hover">
                                         <thead>
@@ -1130,34 +1218,40 @@
                                             <tr>
                                                 <th scope="row">1</th>
                                                 <td>Smith Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Smith@gmail.com</td>
                                                 <td><span class="badge badge-success">Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
                                                 <td>Jhon Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Jhon@gmail.com</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
                                                 <td>Alex</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Otto@gmail.com</td>
                                                 <td><span class="badge badge-warning">Not Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -1171,7 +1265,8 @@
                         <div class="card text-left">
                             <div class="card-body">
                                 <h4 class="card-title mb-3"> Dark Hoverable Table </h4>
-                                <p>Add <code>.table-hover</code> to enable a hover state on table rows within a <code>&lt;tbody&gt;</code>.</p>
+                                <p>Add <code>.table-hover</code> to enable a hover state on table rows within a
+                                    <code>&lt;tbody&gt;</code>.</p>
                                 <div class="table-responsive">
                                     <table class="table table-hover table-dark">
                                         <thead>
@@ -1188,34 +1283,40 @@
                                             <tr>
                                                 <th scope="row">1</th>
                                                 <td>Smith Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Smith@gmail.com</td>
                                                 <td><span class="badge badge-success">Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
                                                 <td>Jhon Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Jhon@gmail.com</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
                                                 <td>Alex</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Otto@gmail.com</td>
                                                 <td><span class="badge badge-warning">Not Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -1232,7 +1333,8 @@
                         <div class="card text-left">
                             <div class="card-body">
                                 <h4 class="card-title mb-3">Light Small Table</h4>
-                                <p>Add <code>.table-sm</code> to make tables more compact by cutting cell padding in half.</p>
+                                <p>Add <code>.table-sm</code> to make tables more compact by cutting cell padding in half.
+                                </p>
                                 <div class="table-responsive">
                                     <table class="table table-sm">
                                         <thead>
@@ -1249,34 +1351,40 @@
                                             <tr>
                                                 <th scope="row">1</th>
                                                 <td>Smith Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Smith@gmail.com</td>
                                                 <td><span class="badge badge-success">Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
                                                 <td>Jhon Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Jhon@gmail.com</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
                                                 <td>Alex</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Otto@gmail.com</td>
                                                 <td><span class="badge badge-warning">Not Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -1290,7 +1398,8 @@
                         <div class="card text-left">
                             <div class="card-body">
                                 <h4 class="card-title mb-3"> Dark Small Table </h4>
-                                <p>Add <code>.table-sm</code> to make tables more compact by cutting cell padding in half.</p>
+                                <p>Add <code>.table-sm</code> to make tables more compact by cutting cell padding in half.
+                                </p>
                                 <div class="table-responsive">
                                     <table class="table table-sm table-dark">
                                         <thead>
@@ -1307,34 +1416,40 @@
                                             <tr>
                                                 <th scope="row">1</th>
                                                 <td>Smith Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Smith@gmail.com</td>
                                                 <td><span class="badge badge-success">Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
                                                 <td>Jhon Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Jhon@gmail.com</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
                                                 <td>Alex</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Otto@gmail.com</td>
                                                 <td><span class="badge badge-warning">Not Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -1532,34 +1647,40 @@
                                             <tr>
                                                 <th scope="row">1</th>
                                                 <td>Smith Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Smith@gmail.com</td>
                                                 <td><span class="badge badge-success">Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
                                                 <td>Jhon Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Jhon@gmail.com</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
                                                 <td>Alex</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Otto@gmail.com</td>
                                                 <td><span class="badge badge-warning">Not Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -1591,34 +1712,40 @@
                                             <tr>
                                                 <th scope="row">1</th>
                                                 <td>Smith Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Smith@gmail.com</td>
                                                 <td><span class="badge badge-success">Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
                                                 <td>Jhon Doe</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Jhon@gmail.com</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
                                                 <td>Alex</td>
-                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="../../dist-assets/images/faces/1.jpg" alt="" /></td>
+                                                <td><img class="rounded-circle m-0 avatar-sm-table" src="images/faces/1.jpg" alt="" /></td>
                                                 <td>Otto@gmail.com</td>
                                                 <td><span class="badge badge-warning">Not Active</span></td>
                                                 <td>
-                                                    <button class="btn btn-success" type="button"><i class="nav-icon i-Pen-2"></i></button>
-                                                    <button class="btn btn-danger" type="button"><i class="nav-icon i-Close-Window"></i></button>
+                                                    <button class="btn btn-success" type="button"><i
+                                                            class="nav-icon i-Pen-2"></i></button>
+                                                    <button class="btn btn-danger" type="button"><i
+                                                            class="nav-icon i-Close-Window"></i></button>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -1635,8 +1762,9 @@
                         <div class="card text-left">
                             <div class="card-body">
                                 <h4 class="card-title mb-3">Light Responsive Table </h4>
-                                <p>Responsive tables allow tables to be scrolled horizontally with ease. Make any table responsive across all viewports by wrapping a <code>.table</code> with <code>.table-responsive</code>. Or, pick a maximum breakpoint with
-                                    which to have a responsive table up to by using <code>.table-responsive{-sm|-md|-lg|-xl}</code>.
+                                <p>Responsive tables allow tables to be scrolled horizontally with ease. Make any table responsive across all viewports by wrapping a <code>.table</code> with
+                                    <code>.table-responsive</code>. Or, pick a maximum breakpoint with which to have a responsive table up to by using
+                                    <code>.table-responsive{-sm|-md|-lg|-xl}</code>.
                                 </p>
                                 <div class="table-responsive">
                                     <table class="table">
@@ -1657,7 +1785,10 @@
                                                 <td>12-10-2019</td>
                                                 <td>$30</td>
                                                 <td><span class="badge badge-success">Delivered</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
@@ -1665,7 +1796,10 @@
                                                 <td>23-10-2019</td>
                                                 <td>$300</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
@@ -1673,7 +1807,10 @@
                                                 <td>12-10-2019</td>
                                                 <td>$30</td>
                                                 <td><span class="badge badge-warning">Not Delivered</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1686,8 +1823,9 @@
                         <div class="card text-left">
                             <div class="card-body">
                                 <h4 class="card-title mb-3"> Dark Responsive Table </h4>
-                                <p>Responsive tables allow tables to be scrolled horizontally with ease. Make any table responsive across all viewports by wrapping a <code>.table</code> with <code>.table-responsive</code>. Or, pick a maximum breakpoint with
-                                    which to have a responsive table up to by using <code>.table-responsive{-sm|-md|-lg|-xl}</code>.
+                                <p>Responsive tables allow tables to be scrolled horizontally with ease. Make any table responsive across all viewports by wrapping a <code>.table</code> with
+                                    <code>.table-responsive</code>. Or, pick a maximum breakpoint with which to have a responsive table up to by using
+                                    <code>.table-responsive{-sm|-md|-lg|-xl}</code>.
                                 </p>
                                 <div class="table-responsive">
                                     <table class="table table-dark">
@@ -1708,7 +1846,10 @@
                                                 <td>12-10-2019</td>
                                                 <td>$30</td>
                                                 <td><span class="badge badge-success">Delivered</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
@@ -1716,7 +1857,10 @@
                                                 <td>23-10-2019</td>
                                                 <td>$300</td>
                                                 <td><span class="badge badge-info">Pending</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">3</th>
@@ -1724,7 +1868,10 @@
                                                 <td>12-10-2019</td>
                                                 <td>$30</td>
                                                 <td><span class="badge badge-warning">Not Delivered</span></td>
-                                                <td><a class="text-success mr-2" href="#"><i class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i class="nav-icon i-Close-Window font-weight-bold"></i></a></td>
+                                                <td><a class="text-success mr-2" href="#"><i
+                                                            class="nav-icon i-Pen-2 font-weight-bold"></i></a><a class="text-danger mr-2" href="#"><i
+                                                            class="nav-icon i-Close-Window font-weight-bold"></i></a>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1751,7 +1898,7 @@
                         <a class="btn btn-primary text-white btn-rounded" href="https://themeforest.net/item/gull-bootstrap-laravel-admin-dashboard-template/23101970" target="_blank">Buy Gull HTML</a>
                         <span class="flex-grow-1"></span>
                         <div class="d-flex align-items-center">
-                            <img class="logo" src="../../dist-assets/images/logo.png" alt="">
+                            <img class="logo" src="images/logo.png" alt="">
                             <div>
                                 <p class="m-0">&copy; 2018 Gull HTML</p>
                                 <p class="m-0">All rights reserved</p>
@@ -1762,10 +1909,11 @@
                 <!-- fotter end -->
             </div>
         </div>
-    </div><!-- ============ Search UI Start ============= -->
+    </div>
+    <!-- ============ Search UI Start ============= -->
     <div class="search-ui">
         <div class="search-header">
-            <img src="../../dist-assets/images/logo.png" alt="" class="logo">
+            <img src="images/logo.png" alt="" class="logo">
             <button class="search-close btn btn-icon bg-transparent float-right mt-2">
                 <i class="i-Close-Window text-22 text-muted"></i>
             </button>
@@ -1779,7 +1927,7 @@
                 <div class="card o-hidden flex-row mb-4 d-flex">
                     <div class="list-thumb d-flex">
                         <!-- TUMBNAIL -->
-                        <img src="../../dist-assets/images/products/headphone-1.jpg" alt="">
+                        <img src="images/products/headphone-1.jpg" alt="">
                     </div>
                     <div class="flex-grow-1 pl-2 d-flex">
                         <div class="card-body align-self-center d-flex flex-column justify-content-between align-items-lg-center flex-lg-row">
@@ -1802,7 +1950,7 @@
                 <div class="card o-hidden flex-row mb-4 d-flex">
                     <div class="list-thumb d-flex">
                         <!-- TUMBNAIL -->
-                        <img src="../../dist-assets/images/products/headphone-2.jpg" alt="">
+                        <img src="images/products/headphone-2.jpg" alt="">
                     </div>
                     <div class="flex-grow-1 pl-2 d-flex">
                         <div class="card-body align-self-center d-flex flex-column justify-content-between align-items-lg-center flex-lg-row">
@@ -1825,7 +1973,7 @@
                 <div class="card o-hidden flex-row mb-4 d-flex">
                     <div class="list-thumb d-flex">
                         <!-- TUMBNAIL -->
-                        <img src="../../dist-assets/images/products/headphone-3.jpg" alt="">
+                        <img src="images/products/headphone-3.jpg" alt="">
                     </div>
                     <div class="flex-grow-1 pl-2 d-flex">
                         <div class="card-body align-self-center d-flex flex-column justify-content-between align-items-lg-center flex-lg-row">
@@ -1848,7 +1996,7 @@
                 <div class="card o-hidden flex-row mb-4 d-flex">
                     <div class="list-thumb d-flex">
                         <!-- TUMBNAIL -->
-                        <img src="../../dist-assets/images/products/headphone-4.jpg" alt="">
+                        <img src="images/products/headphone-4.jpg" alt="">
                     </div>
                     <div class="flex-grow-1 pl-2 d-flex">
                         <div class="card-body align-self-center d-flex flex-column justify-content-between align-items-lg-center flex-lg-row">
@@ -1902,7 +2050,16 @@
                     </div>
                     <div class="collapse show" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionCustomizer">
                         <div class="card-body">
-                            <div class="colors sidebar-colors"><a class="color gradient-purple-indigo" data-sidebar-class="sidebar-gradient-purple-indigo"><i class="i-Eye"></i></a><a class="color gradient-black-blue" data-sidebar-class="sidebar-gradient-black-blue"><i class="i-Eye"></i></a><a class="color gradient-black-gray" data-sidebar-class="sidebar-gradient-black-gray"><i class="i-Eye"></i></a><a class="color gradient-steel-gray" data-sidebar-class="sidebar-gradient-steel-gray"><i class="i-Eye"></i></a><a class="color dark-purple active" data-sidebar-class="sidebar-dark-purple"><i class="i-Eye"></i></a><a class="color slate-gray" data-sidebar-class="sidebar-slate-gray"><i class="i-Eye"></i></a><a class="color midnight-blue" data-sidebar-class="sidebar-midnight-blue"><i class="i-Eye"></i></a><a class="color blue" data-sidebar-class="sidebar-blue"><i class="i-Eye"></i></a><a class="color indigo" data-sidebar-class="sidebar-indigo"><i class="i-Eye"></i></a><a class="color pink" data-sidebar-class="sidebar-pink"><i class="i-Eye"></i></a><a class="color red" data-sidebar-class="sidebar-red"><i class="i-Eye"></i></a><a class="color purple" data-sidebar-class="sidebar-purple"><i class="i-Eye"></i></a></div>
+                            <div class="colors sidebar-colors"><a class="color gradient-purple-indigo" data-sidebar-class="sidebar-gradient-purple-indigo"><i class="i-Eye"></i></a><a class="color gradient-black-blue" data-sidebar-class="sidebar-gradient-black-blue"><i class="i-Eye"></i></a>
+                                <a class="color gradient-black-gray" data-sidebar-class="sidebar-gradient-black-gray"><i
+                                        class="i-Eye"></i></a><a class="color gradient-steel-gray" data-sidebar-class="sidebar-gradient-steel-gray"><i class="i-Eye"></i></a>
+                                <a class="color dark-purple active" data-sidebar-class="sidebar-dark-purple"><i
+                                        class="i-Eye"></i></a><a class="color slate-gray" data-sidebar-class="sidebar-slate-gray"><i class="i-Eye"></i></a>
+                                <a class="color midnight-blue" data-sidebar-class="sidebar-midnight-blue"><i
+                                        class="i-Eye"></i></a><a class="color blue" data-sidebar-class="sidebar-blue"><i
+                                        class="i-Eye"></i></a><a class="color indigo" data-sidebar-class="sidebar-indigo"><i class="i-Eye"></i></a><a class="color pink" data-sidebar-class="sidebar-pink"><i class="i-Eye"></i></a>
+                                <a class="color red" data-sidebar-class="sidebar-red"><i class="i-Eye"></i></a><a class="color purple" data-sidebar-class="sidebar-purple"><i class="i-Eye"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1913,7 +2070,8 @@
                     <div class="collapse show" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionCustomizer">
                         <div class="card-body">
                             <label class="checkbox checkbox-primary">
-                                <input id="rtl-checkbox" type="checkbox" /><span>Enable RTL</span><span class="checkmark"></span>
+                                <input id="rtl-checkbox" type="checkbox" /><span>Enable RTL</span><span
+                                    class="checkmark"></span>
                             </label>
                         </div>
                     </div>
@@ -1921,12 +2079,12 @@
             </div>
         </div>
     </div>
-    <script src="../../dist-assets/js/plugins/jquery-3.3.1.min.js"></script>
-    <script src="../../dist-assets/js/plugins/bootstrap.bundle.min.js"></script>
-    <script src="../../dist-assets/js/plugins/perfect-scrollbar.min.js"></script>
-    <script src="../../dist-assets/js/scripts/script.min.js"></script>
-    <script src="../../dist-assets/js/scripts/sidebar.compact.script.min.js"></script>
-    <script src="../../dist-assets/js/scripts/customizer.script.min.js"></script>
+    <script src="js/plugins/jquery-3.3.1.min.js"></script>
+    <script src="js/plugins/bootstrap.bundle.min.js"></script>
+    <script src="js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="js/scripts/script.min.js"></script>
+    <script src="js/scripts/sidebar.compact.script.min.js"></script>
+    <script src="js/scripts/customizer.script.min.js"></script>
 </body>
 
 </html>
