@@ -34951,3 +34951,8 @@ blockquote {
     text-decoration: none;
     background-color: #10163a;
 }
+
+.bordered_2px {
+    border-top: 1px solid #e0e0e0;
+    padding-bottom: 0px;
+}
